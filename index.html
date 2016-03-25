@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css" charset="utf-8">
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/ace.js"></script>-->
+    <script type="text/javascript" src="lib/ace/ace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/ext-language_tools.js"></script>
+    <script type="text/javascript" src="lib/ace/mode-glsl.js"></script>
+    <script type="text/javascript" src="lib/ace/theme-github.js"></script>
+    <script type="text/javascript" src="editor.js"></script>
+  </head>
+  <body>
+    <div id="header_fixed">
+        <button type="button" onclick="openLoadFile()">読み込み</button>
+        <button type="button" onclick="saveFile()">保存</button>
+    </div>
+    <div id="footer_fixed"></div>
+    <div id="input_area">
+		    <div id="input_txt"></div>
+    </div>
+  </body>
+</html>
